@@ -1,3 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+    background: linear-gradient(#FDFDBD, #FFDEB4);
+}
+
 header {
-    background-color: ;
+    background-color: blueviolet;
+    color: rgb(161, 38, 38);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+}
+
+.InputSection {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.OutputSection {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#InputField {
+    outline: none;
+    font-size: large;
+    border-radius: 10px;
+    border: solid gray;
+    padding: 10px;
+}
+
+#InputField:focus {
+    border: solid black;
 }
